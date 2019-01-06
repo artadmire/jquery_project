@@ -1,6 +1,6 @@
 $(function() {
     //tab切换
-
+    
     $('.pro-list .list').eq(0).show().siblings().hide();
     $('.pro-sort div').on('click', function() {
             var _index = $(this).index();
