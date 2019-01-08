@@ -33,7 +33,10 @@ input {
         .detail-wrap .detail .detail-page .d-page-l .d-page-l-lf {
           float: left;
           width: 400px;
+          height: 511px;
           margin-top: 20px; }
+          .detail-wrap .detail .detail-page .d-page-l .d-page-l-lf .magnifier-container {
+            height: 400px; }
         .detail-wrap .detail .detail-page .d-page-l .d-page-l-rg {
           float: right;
           width: 610px;
@@ -87,7 +90,7 @@ input {
               display: inline-block;
               width: 20px;
               height: 20px;
-              background: url(../img/qushi.png) no-repeat; }
+              background: url(../../../img/qushi.png) no-repeat; }
             .detail-wrap .detail .detail-page .d-page-l .d-page-l-rg .good-des em {
               font-size: 18px;
               margin-right: 10px; }
@@ -96,7 +99,7 @@ input {
           .detail-wrap .detail .detail-page .d-page-l .d-page-l-rg .good-price {
             height: 80px;
             line-height: 50px;
-            background: url(../img/price_bg.png); }
+            background: url(../../../img/price_bg.png); }
             .detail-wrap .detail .detail-page .d-page-l .d-page-l-rg .good-price p {
               float: left;
               margin-left: 15px;
@@ -115,11 +118,9 @@ input {
                 display: inline-block;
                 width: 10px;
                 height: 20px;
-                background: url(../img/icon_corner.png);
-                float: left; }
+                background: url(../../../img/icon_corner.png); }
               .detail-wrap .detail .detail-page .d-page-l .d-page-l-rg .good-price div span {
                 display: inline-block;
-                float: left;
                 color: #fff;
                 background: #ff7300;
                 height: 20px;
@@ -197,7 +198,7 @@ input {
                   vertical-align: middle;
                   width: 26px;
                   height: 26px;
-                  background: url(../img/icon_minus.png);
+                  background: url(../../../img/icon_minus.png);
                   border: 1px solid #ddd; }
                 .detail-wrap .detail .detail-page .d-page-l .d-page-l-rg .sku .sku-quntity .num-selec input {
                   width: 61px;

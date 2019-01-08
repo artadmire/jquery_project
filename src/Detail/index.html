@@ -5,11 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="../commonCss/bootstrap-theme.min.css">
+    <title>一起火详情页</title>
+    <link rel="stylesheet" href="../../commonCss/bootstrap-theme.min.css">
     <link rel="stylesheet" href="../Home/css/home.css">
     <link rel="stylesheet" href="./css/detail.css">
-    <script src="../commonJs/jquery.min.js"></script>
+    <link rel="stylesheet" href="../../commonCss/magnifier.css">
+    <!-- <link  href="../../commonCss/magnifier.css"> -->
+    <!-- <link rel="stylesheet" href="../../commonCss/htms.css"> -->
+    <script src="../../commonJs/jquery-1.11.3.min.js"></script>
+    <script src="../../commonJs/magnifier.js"></script>
+    <script src="./js/test.js"></script>
 </head>
 
 <body>
@@ -113,20 +118,53 @@
         <div class="detail">
             <div class="detail-page ">
                 <div class="d-page-l ">
-                    <div class="d-page-l-lf ">
-                        <div>
-                            <a href="">
-                                <img src="./img/5ba24db10b39d.jpg" alt="" style="width:400px;height:400px;
-                                ">
-                            </a>
-                        </div>
-                        <div>
-                            放大镜细节图
-                        </div>
-                        <div>
-                            lianxiu
-                        </div>
-                    </div>
+                        <div class="magnifier d-page-l-lf" id="magnifier1">
+                                <div class="magnifier-container">
+                                    <div class="images-cover"></div>
+                                    <!--当前图片显示容器-->
+                                    <div class="move-view"></div>
+                                    <!--跟随鼠标移动的盒子-->
+                                </div>
+                                <div class="magnifier-assembly">
+                                    <div class="magnifier-btn">
+                                        <span class="magnifier-btn-left">&lt;</span>
+                                        <span class="magnifier-btn-right">&gt;</span>
+                                    </div>
+                                    <!--按钮组-->
+                                    <div class="magnifier-line">
+                                        <ul class="clearfix animation03">
+                                            <li>
+                                                <div class="small-img">
+                                                    <img src="../../img/pic.jpg" />
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="small-img">
+                                                    <img src="../../img/pic2.jpg" />
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="small-img">
+                                                    <img src="../../img/pic3.jpg" />
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="small-img">
+                                                    <img src="../../img/pic4.jpg" />
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="small-img">
+                                                    <img src="../../img/pic5.jpg" />
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <!--缩略图-->
+                                </div>
+                                <div class="magnifier-view"></div>
+                                <!--经过放大的图片显示容器-->
+                            </div>
                     <div class="d-page-l-rg">
                         <div class="good-title">
                             <p>
@@ -316,5 +354,5 @@
         </div>
     </div>
 </body>
-<script src="./js/bootstrap.min.js"></script>
+<script src="../../commonJs/bootstrap.min.js"></script>
 </html>

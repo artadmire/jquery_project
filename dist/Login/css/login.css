@@ -13,7 +13,7 @@ input {
   overflow: hidden; }
   .container .con-bg {
     height: 410px;
-    background: url(../img/login-banner.jpg) center;
+    background: url(../../../img/login-banner.jpg) center;
     background-size: 1920px 410px;
     overflow: hidden; }
   .container .form-group {
