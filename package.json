@@ -1,23 +1,37 @@
 {
-  "name": "jquery_project",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/artadmire/jquery_project.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/artadmire/jquery_project/issues"
-  },
-  "homepage": "https://github.com/artadmire/jquery_project#readme",
-  "dependencies": {
-    "jquery": "^1.11.1",
-    "jquery-validation": "^1.19.0"
-  }
+    "name": "jquery_project",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "gulp dev"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/artadmire/jquery_project.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/artadmire/jquery_project/issues"
+    },
+    "homepage": "https://github.com/artadmire/jquery_project#readme",
+    "dependencies": {
+        "jquery": "^1.11.1",
+        "jquery-validation": "^1.19.0",
+        "gulp": "^3.9.1"
+    },
+    "devDependencies": {
+        "babel-core": "^6.26.3",
+        "babel-preset-es2015": "^6.24.1",
+        "gulp-babel": "^7.0.1",
+        "gulp-browserify": "^0.5.1",
+        "gulp-clean-css": "^4.0.0",
+        "gulp-connect": "^5.7.0",
+        "gulp-htmlmin": "^5.0.1",
+        "gulp-sass": "^4.0.2",
+        "gulp-uglify": "^3.0.1"
+    }
+
 }
