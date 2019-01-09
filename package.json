@@ -1,0 +1,23 @@
+{
+  "name": "jquery_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artadmire/jquery_project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/artadmire/jquery_project/issues"
+  },
+  "homepage": "https://github.com/artadmire/jquery_project#readme",
+  "dependencies": {
+    "jquery": "^1.11.1",
+    "jquery-validation": "^1.19.0"
+  }
+}

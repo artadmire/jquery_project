@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <script src="./js/jquery.min.js"></script>
     <link rel="stylesheet" href="./css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="./css/huo.css">
-    <link rel="stylesheet" href="./css/login.css">
+    <!-- <link rel="stylesheet" href="./css/login.css"> -->
+    <link rel="stylesheet" href="./css/xiangqing.css">
+    <link rel="stylesheet" href="./css/shoppingcart.css">
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
     <script src="./js/huo.js"></script>
 </head>
 
@@ -105,47 +107,100 @@
                 <li class="today-new"><i class="icon-today-new"></i><a href="">今日上新</a></li>
                 <li class="xyc"><a href="">市场导航</a></li>
             </ul>
-
-
-
         </div>
     </div>
-    <div class="container">
-        <div class="con-bg">
+    <div class="cart-wrap">
+        <div class="main-cart">
+            <div class="cart-top">
+                <div class="ct-left">
+                    <ul>
+                        <li class="actived">全部商品<span>1</span></li>
+                        <li>杭货源<span>1</span></li>
+                        <li>广东货源</li>
+                        <li>其他</li>
+                    </ul>
+                </div>
 
-        </div>
-        <div class="form-group">
-            <div class="form-con">
-                <div class="login-con">
-                    <span class="login-header">用户登陆</span>
-                    <div class="userinput">
-                        <img src="./img/user.png" alt="">
-                        <input type="text" name="username" id="username" placeholder="请输入用户名">
+                <div class="all-money">
+                    <span class="item-select">已选商品<i>0.00</i>元</span>
+                    <div class="ordered">
+                        <a href="">下单</a>
                     </div>
-                    <div class="pwdinput">
-                        <img src="./img/password.png" alt="">
-                        <input type="text" name="paddword" id="password" placeholder="请输入密码">
+                </div>
+            </div>
+            <div class="cart-header">
+                <div class="">
+                    <div class="checkall"><input type="checkbox">全选</div>
+                    <div class="goods-price">货品/单价</div>
+                </div>
+                <div>颜色尺码</div>
+                <div>数量</div>
+                <div>小计</div>
+                <div>操于</div>
+            </div>
+            <div class="cart-list">
+                <div class="sellerinfor">
+                    <input type="checkbox" name="" id="">
+                    <span>航海货源</span>
+                </div>
+                <div class="productlist">
+                    <div class="productone">
+                        <div>
+                            <div>
+                                <input type="checkbox" name="" id="">
+                                <a href=""><img src="./img/cart-pic1.jpg" alt=""></a>
+                            </div>
+                            <div>
+                                <p>情侣装春装套装2019新款宽松韩版百搭bf潮春季卫衣连帽女 1027</p>
+                                <span>b409-qk1027-P78</span>
+                                <span>¥78.00</span>
+                            </div>
+                        </div>
+                        <div>
+                            <div>白色</div>
+                            <div>
+                                <span>S</span>
+                                <span>xl</span>
+                            </div>
+                        </div>
+                        <div>
+                            <span>1</span>
+                        </div>
+                        <div>
+                            <span>¥ 78.00</span>
+                        </div>
+                        <div>
+                            <span>修改</span>
+                            <span>选款</span>
+                            <span>删除</span>
+                        </div>
                     </div>
-                    <span class="userforg"><a href="">忘记密码</a></span>
-                    <div class="loginin">登陆</div>
-                    <div class="other-login">
-                        <a href="">
-                            <img src="./img/taobao.png" alt=""> 淘宝
-                        </a>
-                        &nbsp;&nbsp;
-                        <a href="">
-                            <img src="./img/weixin.png" alt=""> 微信
-                        </a>
-                        <a href="">
-                            <img src="./img/icon-arrow-login.png" alt=""> 立即注册
-                        </a>
-                    </div>
+                    <div class="cart-list-bot"></div>
                 </div>
 
             </div>
+            <div class="cart-bottom">
+                <div class="cb-operation">
+                    <ul>
+                        <li>
+                            <input type="checkbox"> 全选
+                        </li>
+                        <li>删除所选</li>
+                        <li>批量关注</li>
+                    </ul>
+                </div>
+                <div class="cb-count">
+                    数量总计： <span>0</span> 件
+                </div>
+                <div class="cb-money">
+                    货品金额总计：¥ <span>0.00</span>
+                </div>
+                <div class="nextstep">
+                    <a href="">下一步</a>
+                </div>
+            </div>
         </div>
     </div>
-
     <div class="footer">
         <div class="inner">
             <div class="footer-top">
@@ -213,5 +268,5 @@
     </div>
 </body>
 <script src="./js/bootstrap.min.js"></script>
-<script></script>
+
 </html>
